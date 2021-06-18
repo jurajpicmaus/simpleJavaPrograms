@@ -39,15 +39,15 @@ public class AverageScore {
     }
     static void finalScore(double number){
         if (number>= 4.5){
-            System.out.println("Your final score is 5");
+            System.out.println("Your final rounded score is 5");
         }else if (number>=3.5){
-            System.out.println("Your final score is 4");
+            System.out.println("Your final rounded score is 4");
         }else if (number>=2.5){
-            System.out.println("Your final score is 3");
+            System.out.println("Your final rounded score is 3");
         }else if (number>=1.5){
-            System.out.println("Your final score is 2");
+            System.out.println("Your final rounded score is 2");
         }else {
-            System.out.println("Your final score is 1");
+            System.out.println("Your final rounded score is 1");
         }
     }
 }
