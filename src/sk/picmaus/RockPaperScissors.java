@@ -13,7 +13,8 @@ public class RockPaperScissors {
         System.out.println("What's your name, Toots?");
         String name = scan.nextLine();
 
-        System.out.println("Hello " +name+ " we are going to play rock, paper, scissors.");
+        System.out.println("Hello " +name+ ", we are going to play rock, paper, scissors.");
+        System.out.println();
         System.out.println("Select your choice, I will randomly select mine.");
 
         int checkpoint = 0;
@@ -34,7 +35,7 @@ public class RockPaperScissors {
                     System.out.println("You have selected: Scissors");
                     break;
                 default:
-                    System.out.println("You did not select your choice");
+                    System.out.println("You did not select correct letter");
                     checkpoint = 1;
 
             }
